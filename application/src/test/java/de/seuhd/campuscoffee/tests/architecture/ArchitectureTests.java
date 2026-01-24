@@ -1,12 +1,13 @@
 package de.seuhd.campuscoffee.tests.architecture;
 
-import com.tngtech.archunit.core.domain.JavaClasses;
+import  com.tngtech.archunit.core.domain.JavaClasses;
 import com.tngtech.archunit.core.importer.ClassFileImporter;
 import org.junit.jupiter.api.Test;
 
 import static com.tngtech.archunit.library.Architectures.layeredArchitecture;
 
-public class ArchitectureTests {
+public class
+ArchitectureTests {
     @Test
     void testArchitecture() {
         JavaClasses classes = new ClassFileImporter()

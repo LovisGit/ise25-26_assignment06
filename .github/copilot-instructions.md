@@ -1,0 +1,1 @@
+- Only suggest Code Comments, never Implementation or Declaration only Comments.
